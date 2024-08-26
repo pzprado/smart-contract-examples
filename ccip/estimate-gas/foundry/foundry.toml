@@ -4,6 +4,7 @@ out = "out"
 libs = ["lib"]
 remappings = [
     "@chainlink/contracts-ccip/=lib/ccip/contracts/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
 ]
 gas_reports = ["*"]
 solc = '0.8.19'
