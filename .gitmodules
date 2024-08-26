@@ -43,3 +43,6 @@
 [submodule "ccip/estimate-gas/foundry/lib/openzeppelin-contracts"]
 	path = ccip/estimate-gas/foundry/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "ccip/estimate-gas/foundry/lib/chainlink-local"]
+	path = ccip/estimate-gas/foundry/lib/chainlink-local
+	url = https://github.com/smartcontractkit/chainlink-local
