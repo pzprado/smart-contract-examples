@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
 
-contract ExtraArgs {
+contract EncodeExtraArgs {
     // Below is a simplistic example (same params for all messages) of using storage to allow for new options without
     // upgrading the dapp. Note that extra args are chain family specific (e.g. gasLimit is EVM specific etc.).
     // and will always be backwards compatible i.e. upgrades are opt-in.

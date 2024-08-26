@@ -9,7 +9,7 @@ import {CrossChainReceiver} from "../src/CrossChainReceiver.sol";
 import {SwapTestnetUSDC} from "../src/SwapTestnetUSDC.sol";
 import {TransferUSDCScript} from "../script/TransferUSDC.s.sol";
 import {DeployReceiverAndSwapScript} from "../script/DeployReceiverAndSwap.s.sol";
-import {ExtraArgs} from "./utils/ExtraArgs.sol";
+import {EncodeExtraArgs} from "./utils/EncodeExtraArgs.sol";
 import {TransferHelperConfig} from "../script/TransferHelperConfig.s.sol";
 import {SwapHelperConfig} from "../script/SwapHelperConfig.s.sol";
 import {ReceiverHelperConfig} from "../script/ReceiverHelperConfig.s.sol";
